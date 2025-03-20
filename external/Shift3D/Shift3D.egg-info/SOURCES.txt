@@ -1,0 +1,15 @@
+setup.py
+/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/src/vision.cpp
+/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/src/cpu/deform_cpu.cpp
+/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/src/cuda/deform_conv_cuda.cu
+/home/calay/PROJECT/TOP1_GOD/mmdetection-master_GODBenchmark_vsfv2_0906/external/Shift3D/src/vision.cpp
+/home/calay/PROJECT/TOP1_GOD/mmdetection-master_GODBenchmark_vsfv2_0906/external/Shift3D/src/cpu/deform_cpu.cpp
+/home/calay/PROJECT/TOP1_GOD/mmdetection-master_GODBenchmark_vsfv2_0906/external/Shift3D/src/cuda/deform_conv_cuda.cu
+Shift3D.egg-info/PKG-INFO
+Shift3D.egg-info/SOURCES.txt
+Shift3D.egg-info/dependency_links.txt
+Shift3D.egg-info/top_level.txt
+functions/Shift3D_func.py
+functions/__init__.py
+modules/Shift3D.py
+modules/__init__.py

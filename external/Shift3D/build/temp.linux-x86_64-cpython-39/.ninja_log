@@ -1,0 +1,4 @@
+# ninja log v5
+0	4703	1732802308756284855	/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/build/temp.linux-x86_64-cpython-39/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/src/cpu/deform_cpu.o	5d4cb6e667adcfbb
+0	14176	1732802318235825577	/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/build/temp.linux-x86_64-cpython-39/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/src/vision.o	76a0853bcc6d921e
+0	14322	1732802318379818626	/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/build/temp.linux-x86_64-cpython-39/home/calay/PROJECT/TOP1_GOD/GITHUB/VSF-RCNN/external/Shift3D/src/cuda/deform_conv_cuda.o	b72886b3ee766fe8
