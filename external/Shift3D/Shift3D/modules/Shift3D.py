@@ -9,7 +9,7 @@ from torch import nn
 from torch.nn import init
 from torch.nn.modules.utils import _triple
 
-from external.Shift3D.functions.Shift3D_func import DeformConvFunction
+from Shift3D.functions.Shift3D_func import DeformConvFunction
 
 
 class DeformConv(nn.Module):

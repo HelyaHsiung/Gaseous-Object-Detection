@@ -44,7 +44,7 @@ def get_extensions():
     include_dirs = [extensions_dir]
     ext_modules = [
         extension(
-            "Shift3D",
+            "Shift3D.core",
             sources,
             include_dirs=include_dirs,
             define_macros=define_macros,
@@ -59,8 +59,9 @@ setup(
     author="calayzhou",
     url="https://github.com/xxx/xxx",
     description="3D Shift in the temporal and spatial demension",
-    packages=find_packages(exclude=("configs", "tests",)),
-    # install_requires=requirements,
+    packages=find_packages(include=["Shift3D", "Shift3D.*"], exclude=["configs", "tests"]),
+    package_data={"Shift3D": ["*.pyi", "*.pyd", "*.so"]},
+    install_requires=requirements,
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
 )
