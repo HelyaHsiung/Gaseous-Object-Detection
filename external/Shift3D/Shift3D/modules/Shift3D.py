@@ -44,7 +44,7 @@ class DeformConv(nn.Module):
         
         if self.is_inputdata:
             bias_value = 1.0
-            self.offset_bias_uniform = torch.arange(-bias_value,bias_value+1,2*bias_value/(self.deformable_groups-1)).unsqueeze(1)
+            self.offset_bias_uniform = torch.arange(-bias_value,bias_value+2*bias_value/(self.deformable_groups-1),2*bias_value/(self.deformable_groups-1)).unsqueeze(1)
             self.offset_bias_zeros = torch.zeros_like(self.offset_bias_uniform)
             
             self.offset_bias = torch.cat([self.offset_bias_uniform,self.offset_bias_zeros,self.offset_bias_zeros],dim=1).view(-1).unsqueeze(1)#.unsqueeze(1).unsqueeze(1).unsqueeze(0)
